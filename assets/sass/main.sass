@@ -1,0 +1,542 @@
+@import "variables"
+
+/*fonts*/
+@import url('https://fonts.googleapis.com/css?family=Lato')
+@import url('https://fonts.googleapis.com/css?family=Asap')
+@import url('https://fonts.googleapis.com/css?family=Montserrat')
+
+/*all blocks*/
+
+*
+  box-sizing: border-box
+
+body
+  max-width: 1366px
+  margin: 0 auto
+  font-family: 'Open Sans', sans-serif
+
+/*First Section*/
+.header 
+  height: 90px
+
+.first-section
+  background-color: #DFDFDF
+  height: 750px
+
+a
+  text-decoration: none
+
+.logo
+  display: inline-block
+  padding:
+    top: 40px
+    left: 100px
+
+.top-nav
+  display: flex
+  justify-content: flex-end
+  margin-top: -50px
+
+.top-nav_block
+  margin-right: 40px
+
+  &:last-child
+    margin-right: 100px
+
+.top-nav_link
+  text-align: center
+  color: #4d4d4d
+  font-family: Asap
+  font-size: 16px
+  font-weight: 400
+  padding:
+    bottom: 6px
+
+  &:hover
+    border-bottom: 2px solid #4d4d4d
+    opacity: .6
+
+.section_container
+  margin-top: 56px
+  display: flex
+
+.section_container_block1
+  width: 50%
+
+.block1_headline
+  margin:
+    top: 110px
+    left: 150px
+    bottom: 0
+  color: #4d4d4d
+  font-family: Asap
+  font-size: 90px
+  font-weight: 500
+
+.paragraph_block1
+  opacity: 0.54
+  color: #4d4d4d
+  font-family: Asap
+  font-size: 22px
+  font-weight: 500
+  margin:
+    top: 0
+    bottom: 0
+    left: 150px
+
+.button-know
+  width: 160px
+  height: 50px
+  margin:
+    left: 150px
+    top: 28px
+    right: 20px
+  height: 50px
+  color: #4d4d4d
+  font-family: Asap
+  font-size: 16px
+  font-weight: 500
+  text-transform: uppercase
+  letter-spacing: 0.96px
+  box-shadow: 0 18px 27px 2px rgba(0, 0, 0, 0.1)
+  background-color: #ffffff
+  border: none
+
+.button-hire
+  width: 160px
+  height: 50px
+  color: #4d4d4d
+  font-family: Asap
+  font-size: 16px
+  font-weight: 500
+  text-transform: uppercase
+  letter-spacing: 0.96px
+  border: 1px solid #4d4d4d
+
+.section_container_block2
+  width: 50%
+
+.img-face
+  width: 560px
+  margin-left: 100px
+
+/*Second Section*/
+
+.second-section-container
+  display: flex
+  margin:
+    top: 110px
+    bottom: 125px
+
+.second-section-container_block1
+  width: 40%
+  margin:
+    left: 100px
+    top: 50px
+
+
+.section-block1_headline
+  opacity: 0.8
+  color: #4d4d4d
+  font-family: Asap
+  font-size: 46px
+  font-weight: 700
+  text-transform: uppercase
+  letter-spacing: 5.52px
+  margin-bottom: 0
+
+  &:before
+    content: ""
+    width: 60px
+    height: 4px
+    background-color: #212121
+    opacity: 0.6
+    display: block
+    margin:
+      bottom: 5px
+      left: 4px
+
+.section-block1_paragraph
+  color: #4d4d4d
+  font-family: Asap
+  font-size: 16px
+  font-weight: 400
+  line-height: 26px
+  margin-top: 0
+
+.button-download_cv
+  background-color: transparent 
+  width: 245px
+  height: 50px
+  border: 1px solid #4d4d4d
+  color: #4d4d4d
+  font-family: Asap
+  font-size: 16px
+  font-weight: 500
+  text-transform: uppercase
+  letter-spacing: 0.96px
+  margin-top: 20px
+
+.second-section-container_block2
+  width: 60%
+  margin-left: 130px
+
+/*Service Section*/
+
+.service
+  background-color: #f6f6f6
+
+.section-headline
+  text-align: center
+  opacity: 0.8
+  color: #4d4d4d
+  font-family: Asap
+  font-size: 46px
+  font-weight: 700
+  line-height: 49px
+  text-transform: uppercase
+  letter-spacing: 5.52px
+  padding-top: 120px
+  margin: 0 auto
+
+  &:before
+    content: ""
+    width: 60px
+    height: 4px
+    background-color: #212121
+    opacity: 0.6
+    display: block
+    margin:
+      left: auto
+      right: auto
+      bottom: 10px
+
+.service-container
+  display: flex
+  flex-wrap: wrap
+  justify-content: space-between
+
+.service-container_block
+  width: 33%
+  text-align: center
+  margin:
+    top: 70px
+
+.service-container_block1
+  width: 33%
+  text-align: center
+  margin:
+    top: 70px
+    bottom: 120px
+
+/*My Skills*/
+
+.skills
+  height: 800px
+.graphic
+  display: inline-flex
+  flex-direction: column
+  margin:
+    top: 40px
+    left: 186px
+
+.skill-percent
+  color: #4d4d4d
+  font-family: Asap
+  font-size: 15px
+  font-weight: 400
+  line-height: 25px
+
+.picture-graphic
+  float: right
+  margin:
+    top: 60px
+    right: 185px
+
+.skill-icon_container
+  margin-top: 100px
+  display: flex
+  justify-content: space-evenly
+  margin:
+    left: 80px
+    right: 60px
+
+/*Portfolio*/
+.portfolio
+  background-color: #f6f6f6
+  height: 1095px
+
+.portfolio-container
+  display: flex
+  flex-wrap: wrap
+  margin:
+    left: 70px
+    top: 15px
+
+.portfolio-container_block
+  margin:
+    left: 30px
+    top: 30px 
+
+.button-load
+  width: 190px
+  height: 50px
+  box-shadow: 0 18px 27px 2px rgba(0, 0, 0, 0.1)
+  background-color: transparent 
+  border: none
+  color: #4d4d4d
+  font-family: Asap
+  font-size: 16px
+  font-weight: 500
+  text-transform: uppercase
+  letter-spacing: 0.96px
+  margin:
+    top: 28px
+    left: 580px
+
+/*TESTIMONIALS*/
+
+.testimonials
+  height: 720px
+
+.testimonials-container
+  width: 955px
+  height: 349px
+  border: 1px solid #212121
+  display: flex
+  margin:
+    top: 57px
+    left: 210px
+
+.testi-container_block1
+  width: 30%
+  margin:
+    top: 82px
+    left: 121px
+
+.testi-container_block2
+  width: 70%
+  margin:
+    left: -60px
+    top: 56px
+    right: 30px
+
+.testi-headline
+  opacity: 0.9
+  color: #212121
+  font-family: Asap
+  font-size: 30px
+  font-weight: 500
+  text-transform: uppercase
+  margin-bottom: 0
+
+.testi-preheadline
+  opacity: 0.9
+  color: #212121
+  font-family: Asap
+  font-size: 12px
+  font-style: italic
+  text-transform: uppercase
+  margin:
+    top: 0
+    bottom: 0
+
+.testi-paragraph
+  opacity: 0.6
+  color: #212121
+  font-family: Asap
+  font-size: 16px
+  font-weight: 400
+  line-height: 26px
+  text-transform: uppercase
+
+.square
+  display: flex
+  justify-content: center
+  margin-top: -50px
+
+.square-block1
+  width: 13px
+  height: 13px
+  border: 1px solid #212121
+
+.square-block2
+  width: 13px
+  height: 13px
+  background-color: #212121
+  margin:
+    left: 5px
+    right: 5px
+
+/*FUNFACTOR*/
+
+.funfact
+  height: 300px
+  background-color: #f6f6f6
+
+.funfact-container
+  display: flex
+  justify-content: space-around
+  padding-top: 73px
+  margin:
+    left: 50px
+    right: 50px
+
+.funfact-container_block1
+  margin-top: -20px
+
+/*FORM*/
+
+.form
+  height: 787px
+  background-image: url('../img/cot.jpg')
+
+.section-headline2
+  text-align: center
+  opacity: 0.9
+  color: #ffffff
+  font-family: Asap
+  font-size: 46px
+  font-weight: 700
+  text-transform: uppercase
+  letter-spacing: 5.52px
+  padding-top: 145px
+
+  &:before
+    content: ""
+    width: 60px
+    height: 4px
+    background-color: #ffffff
+    display: block
+    margin:
+      left: auto
+      right: auto
+      bottom: 10px
+
+.form-container
+  margin:
+    left: 300px
+    top: 70px
+
+.form-block1
+  width: 370px
+  height: 57px
+  background-color: #ffffff
+  opacity: 0.8
+  color: #212121
+  font-family: Asap
+  font-size: 16px
+  font-weight: 400
+  line-height: 67px
+  letter-spacing: 0.96px
+  margin:
+    right: 24px
+    bottom: 29px
+
+.form-block2
+  width: 768px
+  height: 207px
+  background-color: #ffffff
+  opacity: 0.8
+  color: #212121
+  font-family: Asap
+  font-size: 16px
+  font-weight: 400
+  line-height: 67px
+  letter-spacing: 0.96px
+
+.style-button
+  width: 123px
+  height: 50px
+  box-shadow: 0 18px 27px 2px rgba(0, 0, 0, 0.1)
+  background-color: #ffffff
+  border: none
+  display: flex 
+  margin:
+    left: 330px
+    top: 30px
+
+.button-text
+  color: #4d4d4d
+  font-family: Asap
+  font-size: 16px
+  font-weight: 500
+  text-transform: uppercase
+  letter-spacing: 0.96px
+  width: 50%
+  padding:
+    left: 15px
+
+.style-button_send
+  padding:
+    top: 18px
+    right: 5px
+  width: 50%
+
+.form-arrow
+  margin:
+    left: 1270px
+    top: -100px
+
+/*FOOTER*/
+
+.hr
+  margin-top: 60px
+  width: 90%
+
+.icon-container
+  display: flex
+  justify-content: flex-start
+  margin:
+    left: 60px
+    top: 20px
+
+.socialIcon
+  margin: 10px
+  display: block
+  
+
+.facebook
+  background-image: url(../img/fb.png)
+  width: 27px
+  height: 27px
+  border-radius: 2px
+
+.twitter
+  background-image: url(../img/tw.png)
+  width: 27px
+  height: 27px
+  border-radius: 2px
+
+.linkIn
+  background-image: url(../img/in.png)
+  width: 27px
+  height: 27px
+  border-radius: 2px
+
+.google
+  background-image: url(../img/goo.png)
+  width: 27px
+  height: 27px
+  border-radius: 2px
+
+.be
+  background-image: url(../img/be.png)
+  width: 27px
+  height: 27px
+  border-radius: 2px
+
+.pl
+  background-image: url(../img/ball.png)
+  width: 27px
+  height: 27px
+  border-radius: 2px
+
+.copyright
+  text-align: center
+  color: #ffffff
+  font-family: Montserrat
+  font-size: 16px
+  font-weight: 400
+  letter-spacing: 0.96px
+  margin-top: -30px
